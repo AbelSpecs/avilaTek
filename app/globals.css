@@ -16,14 +16,20 @@
   }
 }
 
-body {
+body, html {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100%;
+  padding-top: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  body, html {
+    padding: 0.5rem 3rem 0 3rem;
+  }
+}
+
+main{
+  min-height: 100%;
 }
 
 @layer utilities {
