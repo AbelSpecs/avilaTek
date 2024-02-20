@@ -11,10 +11,10 @@ interface HeadlineProps {
 
 export const Headline: FC<HeadlineProps> = ({title, title2, paragraph, titleClassName, paragraphClassName}) => {
     return (
-        <>
-            <h1 className={`font-semibold text-center pt-10 ${titleClassName}`}>{title}</h1>
+        <div className="px-5">
+            <h1 className={`font-semibold pt-10 ${titleClassName}`}>{title}</h1>
             <h1 className={`text-4xl font-semibold text-center xl:text-5xl text-secondaryText`}>{title2}</h1>
-            <p className={`mt-5 text-center font-light px-2 ${paragraphClassName}`}>{paragraph}</p>
-        </>
+            <p className={`mt-5 font-light ${paragraphClassName}`}>{paragraph}</p>
+        </div>
     )
 }

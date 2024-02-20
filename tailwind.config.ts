@@ -15,9 +15,12 @@ const config: Config = {
       },
       colors: {
         bannerColor: '#53389E',
+        secondaryBg: '#F9FAFB',
         primaryButton: '#7F56D9',
+        linkColor: '#6941C6',
         secondaryText: '#E9D7FE',
-        linkColor: '#6941C6'
+        tercearyText: '#344054',
+        secondaryBorder: '#D0D5DD'
       }
     },
   },

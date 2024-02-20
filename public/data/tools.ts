@@ -1,4 +1,4 @@
-import { Tool } from "@/types/tools";
+import { ToolFeature } from "@/types/toolsFeatures";
 import notion from '@/public/tools/notion.svg'
 import slack from '@/public/tools/slack.svg'
 import drive from '@/public/tools/drive.svg'
@@ -7,7 +7,7 @@ import jira from '@/public/tools/jira.svg'
 import dropbox from '@/public/tools/dropbox.svg'
 
 // footer links
-export const tools = (): Tool[] => {
+export const tools = (): ToolFeature[] => {
   return [
     {
         icon: notion,

@@ -1,4 +1,4 @@
-export interface Tool {
+export interface ToolFeature {
     icon: string;
     title: string;
     paragraph: string;
