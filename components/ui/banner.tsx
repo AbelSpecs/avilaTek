@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Image from "next/image";
-import { Headline } from "@/components/ui/headline";
+import { Headline } from "@/components/commons/headline";
 import actionBanner from "@/public/actionBanner.svg"
 import { Buttons } from "@/components/ui/buttons";
 import { Collage } from "@/components/ui/collage";

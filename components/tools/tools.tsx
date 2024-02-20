@@ -1,6 +1,6 @@
 
-import { Headline } from "@/components/ui/headline";
-import { FeatureTool } from "@/components/ui/featureTool";
+import { Headline } from "@/components/commons/headline";
+import { FeatureTool } from "@/components/commons/featureTool";
 import { tools } from "@/public/data/tools";
 
 

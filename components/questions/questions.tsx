@@ -1,7 +1,7 @@
 
-import { Headline } from "@/components/ui/headline";
+import { Headline } from "@/components/commons/headline";
 import { questions } from "@/public/data/questions";
-import { Question } from "@/components/ui/question";
+import { Question } from "@/components/questions/question";
 
 
 interface QuestionsProps {}

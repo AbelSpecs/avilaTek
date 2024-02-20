@@ -1,8 +1,8 @@
 
 
-import { Headline } from "@/components/ui/headline";
+import { Headline } from "@/components/commons/headline";
 import { features } from "@/public/data/features";
-import { FeatureTool } from "@/components/ui/featureTool";
+import { FeatureTool } from "@/components/commons/featureTool";
 
 interface FeatureProps {}
 

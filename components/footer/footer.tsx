@@ -1,6 +1,6 @@
 import { company } from "@/public/data/company";
 import { products } from "@/public/data/product"
-import { Links } from "@/components/ui/links";
+import { Links } from "@/components/commons/links";
 import { Buttons } from "@/components/ui/buttons";
 import apple from "@/public/footer/apple.svg";
 import google from "@/public/footer/google.svg";
