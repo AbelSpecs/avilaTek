@@ -6,6 +6,7 @@ import logo from '@/public/logo.svg'
 import { Buttons } from "../ui/buttons"
 import { Links } from "@/components/ui/links"
 import { navLinks } from "@/public/data/navLinks"
+import { Logo } from "@/components/ui/logo"
 
 interface NavbarProps {}
 
@@ -14,15 +15,16 @@ export const Navbar = () => {
 
     return (
         <nav className="w-full h-10 flex items-center justify-between p-5">
-            <div className="flex gap-2 items-center justify-center text-black">
-                <Image src={logo} alt='logo'/>
-                <Link href='#' className="font-bold">Untitled UI</Link>
+            <div className="flex items-center">
+                <Logo logo={logo} />
+                <Links links={links} containerClassName="hidden lg:flex lg:flex-row lg:gap-10" linkClassName="text-black"/>
             </div>
             <div className="lg:hidden">
                 <Image src={hamburguer} alt="hamburguer"/>
             </div>
-            <Links links={links} containerClassName="hidden lg:flex lg:flex-row lg:gap-10" linkClassName="text-black"/>
-            <Buttons firstButtonText="Log in" secondButtonText="Sign up" containerClassName="hidden text-black lg:flex lg:gap-10"/>
+            <Buttons firstButtonText="Log in" secondButtonText="Sign up" firstClassName="bg-white px-3 py-2 rounded-lg" 
+                    secondClassName="bg-primaryButton text-white px-3 py-2 rounded-lg" 
+                    containerClassName="hidden text-black lg:flex lg:gap-10"/>
         </nav>
     )
 }

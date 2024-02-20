@@ -21,6 +21,9 @@ const config: Config = {
         secondaryText: '#E9D7FE',
         tercearyText: '#344054',
         secondaryBorder: '#D0D5DD'
+      },
+      flex: {
+        '0.5': '0.5 1 50%'
       }
     },
   },
