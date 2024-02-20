@@ -1,7 +1,7 @@
 
 import Image from "next/image"
-import graphic from "@/public/graphic.svg";
-import { Headline } from "../commons/headline";
+import graphic from "@/public/action/graphic.svg";
+import { Headline } from "@/components/commons/headline";
 
 interface HeaderProps {}
 

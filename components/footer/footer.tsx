@@ -4,7 +4,7 @@ import { Links } from "@/components/commons/links";
 import { Buttons } from "@/components/ui/buttons";
 import apple from "@/public/footer/apple.svg";
 import google from "@/public/footer/google.svg";
-import logo from '@/public/logo.svg'
+import logo from '@/public/navbar/logo.svg'
 import { Logo } from "@/components/ui/logo";
 
 interface FooterProps {}

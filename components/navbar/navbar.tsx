@@ -1,9 +1,8 @@
 
-import Link from "next/link"
 import Image from "next/image"
-import hamburguer from '@/public/hamburguer.svg'
-import logo from '@/public/logo.svg'
-import { Buttons } from "../ui/buttons"
+import hamburguer from '@/public/navbar/hamburguer.svg'
+import logo from '@/public/navbar/logo.svg'
+import { Buttons } from "@/components/ui/buttons"
 import { Links } from "@/components/commons/links"
 import { navLinks } from "@/public/data/navLinks"
 import { Logo } from "@/components/ui/logo"
