@@ -16,7 +16,7 @@ interface BannerProps {
 export const Banner: FC<BannerProps> = ({title, paragraph, bannerClassName, textClassName, isAction}) => {
     
     return (
-        <div className={`${!isAction && bannerClassName} flex flex-col justify-center items-center p-2 mt-10 lg:flex-row lg:h-[60vh]`}>
+        <div className={`${!isAction && bannerClassName} flex flex-col justify-center items-center p-2 mt-10 lg:flex-row ${isAction ? 'lg:h-[60vh]' : 'lg:h-[80vh]'}`}>
             <div className={`${bannerClassName} w-full rounded-t-xl lg:min-h-full lg:w-full lg:relative lg:rounded-l-xl lg:rounded-tr-none`}>
                 <div className="lg:min-h-full lg:w-full lg:px-5 lg:absolute lg:inset-y-1/4">
                     <Headline title={title}

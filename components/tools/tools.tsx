@@ -10,7 +10,7 @@ export const Tools = () => {
     const toolsInformation = tools();
 
     return (
-        <div className="w-full pt-40 lg:pt-96">
+        <div className="w-full mt-52 xs:mt-96">
             <div className="px-2">
                 <Headline title="Get more value from your tools" 
                             titleClassName="text-2xl text-black text-center font-semibold"

@@ -7,10 +7,10 @@ interface HeaderProps {}
 
 export const Header = () => {
     return (
-        <div className="w-full h-[80vh] bg-bannerColor mt-10 sm:h-[52vh] md:h-[55vh] lg:h-[80vh] lg:rounded-xl">
-            <div className="px-2 md:px-40 sm:px-6 lg:px-80">
+        <div className="w-full h-[75vh] bg-bannerColor mt-10 sm:h-[65vh] md:h-[70vh] lg:h-[80vh] lg:rounded-xl">
+            <div className="px-2 sm:px-6 md:px-40 lg:px-64">
                 <Headline title="Grow your users."
-                            titleClassName="text-4xl font-semibold xl:text-5xl text-center"
+                            titleClassName="text-2xl font-semibold sm:text-4xl xl:text-5xl text-center"
                             title2="Smarter."
                             paragraph="Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups."
                             paragraphClassName="text-slate-300 text-center"
@@ -23,7 +23,7 @@ export const Header = () => {
                     <button className="mt-5 w-full h-10 rounded-lg bg-primaryButton lg:flex-0.5">Get Started</button>
                 </div>
             </div>
-            <Image src={graphic} alt="graphic" className=" mt-10 mx-auto"/>
+            <Image src={graphic} alt="graphic" className="mx-auto mt-10 "/>
         </div>
     )
 }

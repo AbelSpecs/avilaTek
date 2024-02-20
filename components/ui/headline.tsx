@@ -13,7 +13,7 @@ export const Headline: FC<HeadlineProps> = ({title, title2, paragraph, titleClas
     return (
         <div className="px-5">
             <h1 className={`pt-10 ${titleClassName}`}>{title}</h1>
-            <h1 className={`text-4xl font-semibold text-center xl:text-5xl text-secondaryText`}>{title2}</h1>
+            <h1 className={`text-2xl font-semibold text-center sm:text-4xl xl:text-5xl text-secondaryText`}>{title2}</h1>
             <p className={`mt-5 font-light ${paragraphClassName}`}>{paragraph}</p>
         </div>
     )
