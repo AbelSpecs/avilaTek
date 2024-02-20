@@ -19,10 +19,12 @@ export const Questions = () => {
             <div className="grid grid-cols-1 gap-5 mt-10">
                 {
                     questionsInfo.map(({question, answer, icon}, index) => {
+                        
                         return (
-                            
-                            <Question key={index} question={question} answer={answer} icon={icon}/>
-                            
+                            <div className="flex flex-col justify-center items-center mt-5 px-2 lg:px-52">
+                                <Question key={index} question={question} answer={answer} icon={icon}/>
+                                { index < 6 && <hr className="mt-5 w-full"/>}
+                            </div>
                         )
                     })
                 }

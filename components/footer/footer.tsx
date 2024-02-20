@@ -25,6 +25,7 @@ export const Footer = () => {
                     <Links title="Company" links={companyLinks} containerClassName="flex flex-col gap-y-2" linkClassName="text-linkColor"/>
                 </div>
             </div>
+            <hr className="mb-5"/>
             <div className="flex flex-col items-start gap-y-2 mb-10 px-2 lg:flex-row lg:justify-between lg:items-center">
                 <Logo logo={logo}/>
                 <p className="text-center text-slate-400">© 2077 Untitled UI. All rights reserved.</p>
