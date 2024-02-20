@@ -22,7 +22,7 @@ export const Banner: FC<BannerProps> = ({title, paragraph, bannerClassName, text
             <div className={`${bannerClassName} w-full rounded-t-xl lg:min-h-full lg:w-full lg:relative lg:rounded-l-xl lg:rounded-tr-none`}>
                 <div className="lg:min-h-full lg:w-full lg:px-5 lg:absolute lg:inset-y-1/4">
                     <Headline title={title}
-                                titleClassName={`text-2xl text-left ${textClassName}`}  
+                                titleClassName={`text-2xl text-left font-semibold ${textClassName}`}  
                                 paragraph={paragraph}
                                 paragraphClassName={`text-left ${textClassName}`}
                     />

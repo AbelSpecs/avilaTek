@@ -13,7 +13,7 @@ export const Tools = () => {
         <div className="w-full pt-40 lg:pt-96">
             <div className="px-2">
                 <Headline title="Get more value from your tools" 
-                            titleClassName="text-2xl text-black text-center"
+                            titleClassName="text-2xl text-black text-center font-semibold"
                             paragraph="Connect your tools, connect your teams. With over 100 apps already available in our directory, your team’s favourite tools are just a click away."
                             paragraphClassName="text-black text-center lg:px-40"
                 />

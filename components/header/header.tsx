@@ -10,7 +10,7 @@ export const Header = () => {
         <div className="w-full h-[80vh] bg-bannerColor mt-10 lg:rounded-xl">
             <div className="px-2 lg:px-80">
                 <Headline title="Grow your users."
-                            titleClassName="text-4xl xl:text-5xl text-center"
+                            titleClassName="text-4xl font-semibold xl:text-5xl text-center"
                             title2="Smarter."
                             paragraph="Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups."
                             paragraphClassName="text-slate-300 text-center"

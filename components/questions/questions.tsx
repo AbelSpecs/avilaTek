@@ -12,7 +12,7 @@ export const Questions = () => {
     return (
         <div className="mt-10">
             <Headline title="Frequently asked questions"
-                        titleClassName="text-black text-center text-2xl"
+                        titleClassName="text-black text-center text-2xl font-semibold"
                         paragraph="Everything you need to know about the product and billing."
                         paragraphClassName="text-black text-center"
             />
