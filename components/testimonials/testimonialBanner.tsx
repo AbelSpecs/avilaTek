@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Headline } from "@/components/commons/headline";
 import testimonialBanner from "@/public/testimonials/testimonialBanner.svg"
 import star from "@/public/testimonials/star.svg"
-import { Stars } from "@/components/ui/stars";
+import { Stars } from "@/components/testimonials/stars";
 
 interface TestimonialBannerProps {
     title: string;
