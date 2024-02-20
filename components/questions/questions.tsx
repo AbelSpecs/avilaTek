@@ -17,16 +17,16 @@ export const Questions = () => {
                         paragraphClassName="text-black text-center"
             />
             <div className="grid grid-cols-1 gap-5 mt-10">
-                    {
-                        questionsInfo.map(({question, answer, icon}, index) => {
-                            return (
-                                
-                                <Question key={index} question={question} answer={answer} icon={icon}/>
-                                
-                            )
-                        })
-                    }
-                </div>
+                {
+                    questionsInfo.map(({question, answer, icon}, index) => {
+                        return (
+                            
+                            <Question key={index} question={question} answer={answer} icon={icon}/>
+                            
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }

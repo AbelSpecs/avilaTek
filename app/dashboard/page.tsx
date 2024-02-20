@@ -1,6 +1,7 @@
 import { Action } from "@/components/action/action"
 import { Contracts } from "@/components/contracts/contracts"
 import { Feature } from "@/components/feature/feature"
+import { Footer } from "@/components/footer/footer"
 import { Header } from "@/components/header/header"
 import { Navbar } from "@/components/navbar/navbar"
 import { Questions } from "@/components/questions/questions"
@@ -19,6 +20,7 @@ export default function Dashboard() {
             <Contracts />
             <Questions />
             <Testimonials />
+            <Footer />
         </main>
     )
 }

@@ -7,6 +7,7 @@ import contract2 from '@/public/contracts/contract2.svg'
 import contract3 from '@/public/contracts/contract3.svg'
 import contract4 from '@/public/contracts/contract4.svg'
 import contract5 from '@/public/contracts/contract5.svg'
+import { Buttons } from "@/components/ui/buttons";
 
 interface BannerProps {
     title: string;
@@ -26,10 +27,10 @@ export const Banner: FC<BannerProps> = ({title, paragraph, bannerClassName, text
                                 paragraph={paragraph}
                                 paragraphClassName={`text-left ${textClassName}`}
                     />
-                    <div className="px-5 mb-10 lg:flex lg:flex-row-reverse lg:gap-10 lg:w-96">
-                        <button className="mt-5 w-full h-10 rounded-lg bg-primaryButton border-secondaryBorder">Get Started</button>
-                        <button className="mt-5 w-full h-10 rounded-lg bg-white text-tercearyText">Learn More</button>
-                    </div>
+                    <Buttons firstButtonText="Get Started" secondButtonText="Learn More" 
+                                firstClassName="mt-5 w-full h-10 rounded-lg bg-primaryButton border-secondaryBorder"
+                                secondClassName="mt-5 w-full h-10 rounded-lg bg-white text-tercearyText"
+                                containerClassName="px-5 mb-10 lg:flex lg:flex-row-reverse lg:gap-10 lg:w-96" />
                 </div>
             </div>
             {
