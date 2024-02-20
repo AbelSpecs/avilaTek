@@ -21,8 +21,8 @@ export const Questions = () => {
                     questionsInfo.map(({question, answer, icon}, index) => {
                         
                         return (
-                            <div className="flex flex-col justify-center items-center mt-5 px-2 lg:px-52">
-                                <Question key={index} question={question} answer={answer} icon={icon}/>
+                            <div key={index} className="flex flex-col justify-center items-center mt-5 px-2 lg:px-52">
+                                <Question question={question} answer={answer} icon={icon}/>
                                 { index < 6 && <hr className="mt-5 w-full"/>}
                             </div>
                         )
